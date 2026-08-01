@@ -22,4 +22,4 @@ The scorer validates both files and creates `scorer_results/candidate_december.p
 - GitHub repository containing your code, dependencies, and run instructions
 - `validation_predictions.csv`
 - PDF or DOCX report containing your validation, data split approach and `candidate_december.png`
-- 2-3 minute Loom link
+- 2-3 minute Loom link.
