@@ -23,3 +23,20 @@ The scorer validates both files and creates `scorer_results/candidate_december.p
 - `validation_predictions.csv`
 - PDF or DOCX report containing your validation, data split approach and `candidate_december.png`
 - 2-3 minute Loom link.
+
+## Quick Start
+
+```bash
+# Run full pipeline (data cleaning, feature engineering, training)
+python pipeline.py
+
+# Generates validation_prediction.csv and updates december_chart_input.csv predictions
+python predict.py
+
+# Score predictions
+python score.py --predictions validation_predictions.csv --december-predictions data/december_chart_inputs.csv
+```
+
+### Note
+Validation_prediction.csv is attached in the report zip file along with report. 
+Validation_prediction.csv can also be accesse from the root directory it will be generated after running predict.py
